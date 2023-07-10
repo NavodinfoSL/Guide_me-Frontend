@@ -1,0 +1,46 @@
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* h3 {
+    text-align: center;
+  } */
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+ 
+
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .vertical-border {
+    position: absolute;
+    width: 2px;
+    height: 80%;
+    bottom: 10%;
+    left: 50%;
+    background-color: #ffffff;
+  }
+  

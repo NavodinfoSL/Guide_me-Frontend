@@ -1,0 +1,143 @@
+.filter-page {
+  display: flex;
+  flex-direction: column;
+}
+
+#filterhead {
+  background-color: #090c2c;
+  padding: 20px;
+  margin-bottom: 20px;
+ 
+  border-radius: 0px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 40vh;
+  margin-left: auto; /* Automatically calculate the left margin */
+  margin-right: auto; 
+  
+}
+#filterhead h2 {
+
+  width: 998px;
+  height: 300px;
+  left: 109px;
+  top: 20px;
+  margin-bottom: 80%;
+  position: absolute;
+  
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  
+  color: #ffffff;
+}
+#filterhead h5{
+  width: 998px;
+  height: 300px;
+  left: 109px;
+  top: 70px;
+  margin-bottom: 80%;
+  position: absolute;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  
+  color: #f6ff00;
+}
+
+#head {
+  background-color: #7273795f;
+  padding: 10px;
+  margin-bottom: 0%;
+margin-top: 7%;
+justify-content: center;
+ 
+  border-radius: 4.5%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 55%;
+  height: 50vh;
+  margin-left: auto; /* Automatically calculate the left margin */
+  margin-right:auto ;
+}
+
+#head button{
+  color: rgb(255, 253, 253);
+ 
+background-color: rgb(42, 169, 7);
+margin-right: 2%;
+justify-content: center;
+  
+}
+#head h3{
+  display: flex;
+  justify-content: center;
+  
+
+ 
+}
+#industry h4{
+  display: flex;
+  color: #091d66;
+  justify-content: center;
+  padding-top: 3%;
+}
+.industry-buttons > div{
+  display:flex;
+  justify-content:center;
+}
+#industrCountry h4 {
+  display:flex;
+  color: #091d66;
+  justify-content: center;
+  padding-top: 3%;
+}
+#language h4{
+  display:flex;
+  color: #091d66;
+  justify-content: center;
+  padding-top: 3%;
+}
+.filterContainerDiv{
+  display:grid;
+  gap:1rem;
+  
+}
+.educationButton{
+  display:flex !important;
+  gap:1rem;
+  width: 100%;
+  justify-content: center;
+  background-color:rgb(178, 0, 0) !important;
+}
+.buttonImage{
+  height: 2rem;
+  width:2rem;
+}
+.buttonImage img{
+  height:100%;
+  width:100%;
+  border-radius:50%;
+  object-fit: cover;
+}
+
+.image{
+ display: flex;
+ margin-top: -4%;
+ padding-left: 50%;
+ 
+}
+
+
+
+
+

@@ -1,0 +1,31 @@
+footer{
+    background-color: #131430;
+}
+
+footer p{
+    text-align: justify;
+  }
+  
+  footer h5{
+    text-align: justify;
+    color: white;
+  }
+
+  @media (max-width: 1347px) {
+    .mapouter iframe{
+      width: 200px;
+    }
+  }
+
+  @media (max-width: 1080px) {
+    .mapouter iframe{
+      width: 180px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .mapouter iframe{
+      width: 250px;
+    }
+  }
+

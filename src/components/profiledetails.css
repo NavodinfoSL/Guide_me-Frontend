@@ -1,0 +1,193 @@
+.sidebar {
+    background-color: #141430;
+    color: white;
+  }
+  
+  .inputfields{
+    margin-top: -50px;
+  }
+  
+  .profileimg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .coverimage{
+    position: relative;
+    display: flex;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
+  
+  .editicon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 50px;
+    height: 50px;
+    background-color: #188cec;
+    border: 1px solid white;
+    border-radius: 50%;
+    top: 25%;
+    margin-left: 148px;
+  }
+  
+  .editicon2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 50px;
+    height: 50px;
+    background-color: #188cec;
+    border: 1px solid white;
+    border-radius: 50%;
+    right: 3%;
+    top: 91%;  
+  }
+  
+  @media (max-width: 542px) {
+    .editicon2 {
+      /* margin-left: 80px; */
+      right: 0%;
+    top: 80%;
+     
+    }
+  }
+  
+  .editicon2 i {
+    scale: 1.5;
+  }
+  
+  .editicon i {
+    scale: 1.5;
+  }
+  
+  .profileimg .editicon:hover {
+    cursor: pointer;
+    background-color: black;
+  }
+  
+  .coverimage .editicon2:hover {
+    cursor: pointer;
+    background-color: black;
+  }
+  
+  .profileimg img {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    clip-path: circle();
+  }
+  
+  .wraper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 208px;
+    height: 208px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top:-50%;
+  }
+  
+  .namefield input {
+    border: none;
+    background-color: #d9d9d9;
+  }
+  
+  
+  
+  .formsubmit{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .hideicon{
+    color: gray;
+    border-radius: 0 6px 6px 0;
+    /* margin-top: 5px;
+    padding-left: 10px; */
+    /* padding-left: 20px;*/
+    padding-top: 8px; 
+    padding-bottom: 8px;
+  }
+  
+  .hideicon:hover{
+    cursor: pointer;
+    color: black;
+  }
+  
+  .passwordfield{
+    border-radius:6px 0 0 6px;
+  }
+  
+  .passwordinput input:focus{
+    outline: none;
+  }
+  
+  .passwordinput:focus-within{
+    /* border:2px solid black;
+    border-radius: 6px; */
+    outline: auto;
+  }
+  
+  .deletebin{
+    color: red;
+    cursor: pointer;
+  }
+  
+  .expcontent{
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-bottom: .5rem;
+  }
+  
+  .addbtn{
+    border: none;
+  }
+  
+  .addbtn:hover{
+    outline: auto;
+    outline-color: black;
+  }
+  
+  .savebtn:hover{
+    outline: auto;
+    outline-color: red;
+  }
+  
+  .index{
+    padding-right: 20px;
+  }
+  
+  .card-img-top{
+    object-fit: cover;
+    height: 300px;
+    /* width: 300px;
+  height: 200px; */
+  }
+  
+  .datepikerstyle{
+    width: 100%;
+    border: none;
+    background-color: #d9d9d9;
+  }
+  
+  .datepikerstyle:hover{
+    cursor: pointer;
+  }
+  
+  .expdatepicker,.edudatepicker{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
+  
+  

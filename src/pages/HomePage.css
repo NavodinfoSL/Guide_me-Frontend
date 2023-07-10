@@ -1,0 +1,218 @@
+.transparent-bg {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+}
+
+.transparent-bg .content {
+  color: white;
+  font-size: 45px;
+  padding: 6vw 0 0 6.3vw;
+}
+
+.transparent-bg .content span {
+  font-weight: bold;
+}
+
+.bookConsultation {
+  top: -27vw;
+  left: 6.4vw;
+  font-size: 20px;
+  background-color: #32355b;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 20px 8px 20px;
+  color: white;
+  opacity: 0.9;
+}
+
+.bookConsultation:hover {
+  opacity: 1;
+  scale: 1.01;
+}
+
+.row {
+  width: 100%;
+}
+
+.second-part {
+  background-color: #d9d9d9;
+  padding-bottom: 8vw;
+}
+
+.explore h4 a {
+  text-decoration: none;
+}
+
+.first h4 {
+  font-size: 2vw;
+}
+
+.aboutguideme {
+  width: 60vw;
+  height: 58vw;
+  background-color: #f6e6e6;
+  margin-left: 9vw;
+  margin-top: 4vw;
+  padding-top: 3vw;
+}
+
+.first li {
+  list-style-type: none;
+}
+
+.first p {
+  text-align: justify;
+  font-size: 1.2vw;
+}
+
+.first img {
+  width: 7vw;
+}
+
+.accurate p {
+  width: 20vw;
+}
+
+.accurate {
+  padding-top: 5vw;
+}
+
+.anywhere {
+  margin-top: 4vw;
+}
+
+.anywhere p {
+  width: 20vw;
+}
+
+.accurate h5,
+.anywhere h5 {
+  font-size: 1.3vw;
+}
+
+.img1 {
+  margin-top: 9vw;
+}
+
+.img1 img {
+  width: 40vw;
+}
+
+@media (max-width: 995px) {
+    .img1 {
+      float:right;
+      margin-top: 0px;
+    }
+}
+
+.second-transparent-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #06115a;
+  opacity: 0.85;
+  color: white;
+}
+
+.first-colomn-img {
+  width: 45vw;
+  height: 37vw;
+}
+
+.fifth-part .second-colomn {
+  width: 48vw;
+  height: 45vw;
+  background-color: #d9d9d9;
+}
+
+.second-colomn-main {
+  margin-top: 130px;
+  margin-left: -24px;
+}
+
+@media (max-width: 970px) {
+  .second-colomn-main {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .inner-part {
+    padding-bottom: 2px;
+  }
+}
+
+.testimonials {
+  color: blue;
+  padding-top: 3vw;
+  font-size: 2vw;
+}
+
+.Client {
+  font-size: 2vw;
+}
+
+.inner-part {
+  width: 36vw;
+  height: 30vw;
+  padding: 2vw;
+  background-color: #f0fcfc;
+}
+
+.fifth-part .second-colomn-main .second-colomn .inner-part p {
+  text-align: justify;
+  font-size: 1.2vw;
+  padding: 1vw 2vw 2vw 2vw;
+}
+
+.fifth-part .second-colomn-main .second-colomn .inner-part {
+  margin-top: 3vw;
+}
+
+.fifth-part .second-colomn-main .second-colomn .inner-part img {
+  width: 10vw;
+  clip-path: circle();
+}
+
+.fifth-part .second-colomn-main .second-colomn .inner-part h4 {
+  margin-top: 1vw;
+  font-size: 1.3vw;
+}
+
+.fifth-part .second-colomn-main .second-colomn .inner-part h5 {
+  font-size: 1vw;
+}
+
+.profile {
+  margin-top: -2vw;
+}
+
+.our-latest-blogs {
+  color: blue;
+  font-weight: 600;
+  font-size: 1.3vw;
+}
+
+.our-work-business {
+  font-weight: 600;
+  font-size: 1.7vw;
+}
+
+.news-button {
+  font-size: 1.4vw;
+  font-weight: 600;
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 2.5vw;
+  padding: 0 2vw 0 2vw;
+  color: black;
+  opacity: 0.9;
+  height: 3vw;
+}
+
+.news-button:hover {
+  opacity: 1;
+
+  border: 1px solid;
+}
+
